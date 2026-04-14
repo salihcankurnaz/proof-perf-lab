@@ -1,0 +1,21 @@
+{
+  "experiment": "structured_log_parse_split_vs_regex",
+  "timestamp_utc": "2026-04-14T10:20:02.885877+00:00",
+  "repeat": 25,
+  "line_count": 25000,
+  "correctness_check_passed": true,
+  "records_emitted": 25000,
+  "baseline": {
+    "runs": 25.0,
+    "mean_ms": 17.528048,
+    "min_ms": 15.2229,
+    "max_ms": 22.1758
+  },
+  "optimized": {
+    "runs": 25.0,
+    "mean_ms": 27.792604,
+    "min_ms": 24.7892,
+    "max_ms": 36.4606
+  },
+  "speedup": 0.6306731100115699
+}

@@ -1,0 +1,22 @@
+{
+  "experiment": "deterministic_parallel_scan",
+  "timestamp_utc": "2026-04-14T10:30:32.420380+00:00",
+  "repeat": 8,
+  "record_count": 8000,
+  "max_workers": 4,
+  "correctness_check_passed": true,
+  "records_emitted": 8000,
+  "baseline": {
+    "runs": 8.0,
+    "mean_ms": 17.355425,
+    "min_ms": 16.5586,
+    "max_ms": 19.0553
+  },
+  "optimized": {
+    "runs": 8.0,
+    "mean_ms": 2750.5211875,
+    "min_ms": 2674.9825,
+    "max_ms": 2832.4486
+  },
+  "speedup": 0.006309867773014564
+}
